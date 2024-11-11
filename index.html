@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Projects and Services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>hi</p>
+
+    <!-- Header with Navigation -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Homepage) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Building the Future with Innovation</h2>
+            <p>Explore our projects, services, and expertise in transforming ideas into reality.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a passionate team of five robotics students, driven by a shared vision to transform urban living through innovation and technology. Our collective expertise in robotics, automation, and the Internet of Things (IoT) enables us to design smart, sustainable solutions for the cities of tomorrow. Below are the key components of our ongoing project, each aimed at enhancing urban infrastructure, safety, and efficiency:</p>
+
+        </div>
+    </section>
+
+    <!-- Project 1 Section -->
+    <section id="project1" class="section">
+        <div class="container">
+            <h2>Project 1</h2>
+            <div class="gallery-container">
+                <div class="gallery-images">
+                    <img src="images/st_light_off.JPG" alt="Project 1 Image 1" class="gallery-image" style="display: block;">
+                    <img src="images/st_light_on.JPG" alt="Project 1 Image 2" class="gallery-image" style="display: none;">
+
+                </div>
+                <div class="gallery-navigation">
+                    <button class="prev" onclick="changeImage('project1', -1)">&#10094;</button>
+                    <button class="next" onclick="changeImage('project1', 1)">&#10095;</button>
+                </div>
+            </div>
+            <p>
+              Our LDR-based street lighting system automatically adjusts the brightness of street lights based on ambient light levels, ensuring optimal lighting while minimizing energy consumption. Using Light Dependent Resistors (LDRs), the system turns lights on at dusk and off at dawn, with optional motion sensors that adjust brightness based on pedestrian or vehicle traffic. This dynamic lighting solution reduces energy costs, lowers carbon emissions, and enhances public safety by providing consistent, efficient illumination. Additionally, the system can be integrated with IoT for remote monitoring and maintenance, making it easy for cities to manage and optimize their street lighting infrastructure. Overall, our system offers a sustainable, cost-effective solution for modern urban environments.</p>
+        </div>
+    </section>
+
+    <!-- Project 2 Section -->
+    <section id="project2" class="section">
+        <div class="container">
+            <h2>Project 2</h2>
+            <div class="gallery-container">
+                <div class="gallery-images">
+                    <img src="image4.jpg" alt="Project 2 Image 1" class="gallery-image" style="display: block;">
+                    <img src="image5.jpg" alt="Project 2 Image 2" class="gallery-image" style="display: none;">
+                    <img src="image6.jpg" alt="Project 2 Image 3" class="gallery-image" style="display: none;">
+                </div>
+                <div class="gallery-navigation">
+                    <button class="prev" onclick="changeImage('project2', -1)">&#10094;</button>
+                    <button class="next" onclick="changeImage('project2', 1)">&#10095;</button>
+                </div>
+            </div>
+            <p>This project focused on a mobile app for a healthcare provider, allowing patients to book appointments, track their health data, and communicate with doctors. The app uses secure and intuitive features to enhance the user experience.</p>
+        </div>
+    </section>
+
+    <!-- Project 3 Section -->
+    <section id="project3" class="section">
+        <div class="container">
+            <h2>Project 3</h2>
+            <div class="gallery-container">
+                <div class="gallery-images">
+                    <img src="image7.jpg" alt="Project 3 Image 1" class="gallery-image" style="display: block;">
+                    <img src="image8.jpg" alt="Project 3 Image 2" class="gallery-image" style="display: none;">
+                    <img src="image9.jpg" alt="Project 3 Image 3" class="gallery-image" style="display: none;">
+                </div>
+                <div class="gallery-navigation">
+                    <button class="prev" onclick="changeImage('project3', -1)">&#10094;</button>
+                    <button class="next" onclick="changeImage('project3', 1)">&#10095;</button>
+                </div>
+            </div>
+            <p>Our third project is a corporate branding initiative, which included the design of a new logo, a full rebranding strategy, and website redesign for a leading financial services company. The result was a modern, professional online presence that appeals to their target demographic.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Our Website. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to External JavaScript File -->
+    <script src="script.js"></script>
 </body>
 </html>
