@@ -184,7 +184,7 @@ section {
 section h2 {
   margin-bottom: 15px;          /* Add some space below the heading */
   font-size: 1.6rem;            /* Larger font size for headings */
-  color: #f9f9f9;                  /* Heading color */
+  color: #545454;                  /* Heading color */
   text-transform: uppercase;    /* Make headings uppercase for emphasis */
 }
 
